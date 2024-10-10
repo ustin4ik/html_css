@@ -14,7 +14,7 @@ body {
   position: relative;
   width: 1903px;
   margin: 0 auto;
-  height: 1080px;
+  height: 1050px;
   background-image: url(../resourse/Rectangle\ 1\ \(1\).png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -58,6 +58,7 @@ body {
 }
 .cap_panel_a:hover {
   color: #1BFF07;
+  cursor: pointer;
 }
 .nav {
   float: right;
@@ -66,19 +67,8 @@ body {
 }
 
 /* cap_shapka */
-.cap_p {
-  position: absolute;
-  padding: 243px 125px;
-  width: 500px;
-  height: 103px;
-  color: #FFF;
-  font-family: IBM Plex Mono;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: -0.6px;
-}
 .cap_h1 {
-  padding: 380px 119px;
+  padding: 100px 100px;
   width: 919px;
   height: 205px;
   color: #1BFF07;
@@ -88,240 +78,19 @@ body {
   line-height: 70px; /* 87.5% */
   letter-spacing: -2.4px;
 }
+.cap_p {
+  position: absolute;
+  padding-left: 100px;
+  width: 500px;
+  height: 103px;
+  color: #FFF;
+  font-family: IBM Plex Mono;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.6px;
+}
 
 
-/* osnova */
-.osnova {
-  margin: 0 auto;
-  width: 1903px;
-  height: 7000px;
-  background-color: #000;
-}
-.project_h2 {
-  width: 1048px;
-  height: 72px;
-  padding-top: 150px; 
-  padding-left: 120px;
-  color: #FFF;
-  font-family: IBM Plex Mono;
-  font-size: 55px;
-  font-weight: 400;
-  letter-spacing: -1.65px;
-}
-.project_1 {
-  position: relative;
-  margin: 0 auto;
-  margin-top: 40px;
-  width: 1630px;
-  height: 750px;
-  background-image: url(../resourse/Rectangle\ 6\ \(1\).png);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.project_2 {
-  position: relative;
-  margin: 0 auto;
-  width: 1630px;
-  height: 750px;
-  background-image: url(../resourse/Rectangle\ 7\ \(2\).png);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.project_3 {
-  position: relative;
-  margin: 0 auto;
-  width: 1630px;
-  height: 750px;
-  background-image: url(../resourse/Rectangle\ 7\ \(3\).png);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.project_h3 {
-  position: absolute;
-  bottom: 100px;
-  left: 50px;
-  width: 401px;
-  height: 46px;
-  font-family: IBM Plex Mono;
-  font-size: 35px;
-  color: #FFF;
-  font-weight: 400;
-  letter-spacing: -1.05px
-}
-.project_p {
-  position: absolute;
-  bottom: 50px;
-  left: 50px;
-  padding-top: 5px;
-  width: 1000px;
-  height: 39px;
-  font-family: IBM Plex Mono;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.9px;
-  color: #FFF;
-}
-.osnova>button {
-  margin-top: 80px;
-  margin-left: 123px;
-  width: 582px;
-  height: 153px;
-  border-radius: 10px;
-  background: #1BFF07;
-  text-align: center;
-  font-family: IBM Plex Mono;
-  font-size: 30px;
-  font-weight: 400;
-}
-.osnova>button:hover {
-  cursor: pointer;
-  border: 1px solid #1BFF07;
-  background-color: #000;
-  color: #1BFF07;
-}
-.competitions>h4 {
-  padding-left: 123px;
-  padding-top: 48px;
-  width: 1048px;
-  height: 72px;
-  color: #1BFF07;
-  font-family: IBM Plex Mono;
-  font-size: 35px;
-  font-weight: 400;
-  letter-spacing: -1.05px;
-}
-.competitions_h4_1:before {
-  content: '';
-  display: block;
-  margin-bottom: 12px;
-  width: 45px;
-  height: 44px;
-  background-image: url(../resourse/ph_file-html-thin.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.competitions_h4_2:before {
-  content: '';
-  display: block;
-  margin-bottom: 16px;
-  width: 45px;
-  height: 44px;
-  background-image: url(../resourse/ph_file-html-thin\ \(1\).png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.competitions_h4_3:before {
-  content: '';
-  display: block;
-  margin-bottom: 16px;
-  width: 45px;
-  height: 44px;
-  background-image: url(../resourse/ph_file-html-thin\ \(2\).png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.competitions_h4_4:before {
-  content: '';
-  display: block;
-  margin-bottom: 15px;
-  width: 45px;
-  height: 44px;
-  background-image: url(../resourse/ph_file-html-thin\ \(3\).png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.competitions_p_1 {
-  padding-top: 40px;
-  padding-left: 123px;
-  width: 778px;
-  height: 117px;
-  color: #FFF;
-  font-family: IBM Plex Mono;
-  font-size: 22px;
-  font-weight: 400;
-  letter-spacing: -0.66px;
-}
-.competitions_p_2 {
-  padding-top: 40px;
-  padding-left: 123px;
-  width: 778px;
-  height: 145px;
-  color: #FFF;
-  font-family: IBM Plex Mono;
-  font-size: 22px;
-  font-weight: 400;
-  letter-spacing: -0.66px;
-}
-.competitions_p_3 {
-  padding-top: 40px;
-  padding-left: 123px;
-  width: 778px;
-  height: 145px;
-  color: #FFF;
-  font-family: IBM Plex Mono;
-  font-size: 22px;
-  font-weight: 400;
-  letter-spacing: -0.66px;
-}
-.competitions_p_4 {
-  padding-top: 40px;
-  padding-left: 123px;
-  width: 778px;
-  height: 145px;
-  color: #FFF;
-  font-family: IBM Plex Mono;
-  font-size: 22px;
-  font-weight: 400;
-  letter-spacing: -0.66px;
-}
-#offers {
-  width: 403px;
-  height: 92px;
-  color: #FFF;
-  font-family: IBM Plex Mono;
-  font-size: 35px;
-  font-weight: 400;
-  letter-spacing: -1.05px;
-}
-.offers {
-  padding-left: 125px;
-  padding-top: 74px;
-  width: 1630px;
-  height: 350px;
-}
-.black {
-  margin-bottom: 150px;
-  width: 1150px;
-  height: 283px;
-  border-radius: 30px;
-  background: #191C19;
-}
-.offers_h5 {
-  padding-top: 40px;
-  padding-left: 40px;
-  width: 1048px;
-  height: 72px;
-  color: #1BFF07;
-  font-family: IBM Plex Mono;
-  font-size: 55px;
-  font-weight: 400;
-  letter-spacing: -1.65px;
-}
-.offers_p {
-  padding-top: 15px;
-  padding-left: 40px;
-  width: 749px;
-  height: 116px;
-  color: #FFF;
-  font-family: IBM Plex Mono;
-  font-size: 22px;
-  font-weight: 400;
-  letter-spacing: -0.66px;
-}
-.mini {
-  width: 1150px;
-  height: 200px;
-  border-radius: 50px;
-}
+
+
+
